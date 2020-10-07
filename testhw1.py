@@ -18,6 +18,10 @@ class TestTriangles(unittest.TestCase):
     def testScaleneTriangle(self):
         self.assertEqual(SortTri(5, 7, 9), 'Scalene Triangle', '3,4,5 is a scalene triangle')
 
+    def testLengthError(self):
+        self.assertEqual(SortTri(1, 7, 2), 'Length error!!', '1,7,2 is length error')
+
+
 if __name__ == '__main__':
     print('Running unit tests')
     unittest.main()
