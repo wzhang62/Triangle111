@@ -9,7 +9,5 @@ def SortTri(a, b, c):
         if a != b != c:
             return "Scalene Triangle"
     else:
-        print("length error!!")
-        quit()
-
+        return "Length error!!"
 
